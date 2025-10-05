@@ -1,0 +1,31 @@
+/* style.css - Tema Universitas Papua (kuning + hijau) */
+:root{
+  --green: #0b6b3a;
+  --yellow: #ffd400;
+  --soft: #ffffff;
+  --muted: #666;
+}
+
+*{box-sizing:border-box;font-family:Arial,Helvetica,sans-serif}
+body{margin:0;background:#f7f9f8;color:#111}
+.topbar{background:linear-gradient(90deg,var(--green),#0f8a4c);color:var(--soft);padding:12px 18px;display:flex;justify-content:space-between;align-items:center}
+.topbar h1{margin:0;font-size:18px}
+.topbar nav a{color:var(--soft);margin-left:12px;text-decoration:none;font-weight:600}
+.container{max-width:900px;margin:20px auto;padding:0 12px}
+.filter form{display:flex;gap:8px;margin-bottom:12px}
+.filter input{flex:1;padding:8px;border:1px solid #ddd;border-radius:6px}
+.filter button{background:var(--yellow);border:none;padding:8px 12px;border-radius:6px;font-weight:700}
+.job-card{background:#fff;border-radius:8px;padding:12px;margin-bottom:12px;border-left:6px solid var(--yellow)}
+.job-card h2{margin:0 0 6px 0}
+.job-card .meta{color:var(--muted);font-size:13px;margin-bottom:8px}
+.btn{display:inline-block;padding:8px 12px;background:var(--green);color:#fff;text-decoration:none;border-radius:6px}
+.btn.small{padding:6px 8px;font-size:13px}
+.btn.outline{background:transparent;border:1px solid var(--green);color:var(--green)}
+.card{background:#fff;border-radius:8px;padding:12px;margin-bottom:12px}
+.card.small{padding:8px}
+.auth-card{max-width:420px;margin:40px auto;padding:20px;background:#fff;border-radius:8px}
+input,textarea,select{width:100%;padding:8px;margin:6px 0;border:1px solid #ddd;border-radius:6px}
+textarea{min-height:120px}
+.error{color:#b00020}
+.msg{background:#e8f7ee;border-left:4px solid var(--green);padding:8px;border-radius:4px}
+.footer{text-align:center;padding:18px;color:var(--muted);margin-top:20px}
